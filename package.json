@@ -11,8 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jose": "^2.0.2",
-    "express": "^4.16.4",
-    "joi": "^13.1.0"
+    "node-jose": "1.0.0"
   }
 }
