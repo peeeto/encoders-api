@@ -3,6 +3,7 @@
 *.iws
 .idea/
 target/
+dist/
 atlassian-ide-plugin.xml
 logs/
 *.classpath
