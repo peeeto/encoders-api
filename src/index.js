@@ -63,10 +63,10 @@ var keystore = jose.JWK.createKeyStore();
 // console.log(keystore.toJSON(true))
 //
 jose.JWK.asKeyStore(input)
-    .then(function (result) {
+    .then(function (result) { 
         // {result} is a jose.JWK.KeyStore
         keystore = result;
-        console.log(keystore.toJSON(true))
+        console.log("keystore:"+keystore.toJSON(true))
     }).catch(function (reason) {
         console.log("error: " + reason);
     }
